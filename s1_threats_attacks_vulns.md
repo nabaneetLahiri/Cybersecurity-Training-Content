@@ -42,14 +42,14 @@ There is an inter dependency between these three attributes. When **security goe
 <img width="50%" src="https://www.simplilearn.com/ice9/free_resources_article_thumb/types-hacker.JPG">
 </p>
 
-> - **Black Hat** - Hackers that seek to perform malicious activities.
-> - **Gray Hat** - Hackers that perform good or bad activities but do not have the permission of the organization they are hacking against.
-> - **White Hat** - Ethical hackers; They use their skills to improve security by exposing vulnerabilities before malicious hackers.
-**Script Kiddie / Skiddies** - Unskilled individual who uses malicious scripts or programs, such as a web shell, developed by others to attack computer systems and networks and deface websites. 
-**State-Sponsored Hacker** - Hacker that is hired by a government or entity related.
-**Hacktivist** - Someone who hacks for a cause; political agenda.
-**Suicide Hackers** - Are hackers that are not afraid of going jail or facing any sort of punishment; hack to get the job done.
-**Cyberterrorist** - Motivated by religious or political beliefs to create fear or disruption.
+- **Black Hat** - Hackers that seek to perform malicious activities.
+- **Gray Hat** - Hackers that perform good or bad activities but do not have the permission of the organization they are hacking against.
+- **White Hat** - Ethical hackers; They use their skills to improve security by exposing vulnerabilities before malicious hackers.
+-**Script Kiddie / Skiddies** - Unskilled individual who uses malicious scripts or programs, such as a web shell, developed by others to attack computer systems and networks and deface websites. 
+-**State-Sponsored Hacker** - Hacker that is hired by a government or entity related.
+-**Hacktivist** - Someone who hacks for a cause; political agenda.
+-**Suicide Hackers** - Are hackers that are not afraid of going jail or facing any sort of punishment; hack to get the job done.
+-**Cyberterrorist** - Motivated by religious or political beliefs to create fear or disruption.
 
 ## <span style="color:#009fd4">Terminology</span>
 
@@ -62,7 +62,46 @@ There is an inter dependency between these three attributes. When **security goe
 - **Daisy Chaining / Pivotting** - It involves gaining access to a network and /or computer and then using the same information to gain access to multiple networks and computers that contains desirable information. 
 - **Doxxing** - Publishing PII about an individual usually with a malicious intent.
 - **Enterprise Information Security Architecture** (EISA) - determines the structure and behavior of organization's information systems through processes, requirements, principles and models.
+ 
+## <span style="color:#009fd4">Attack Vectors</span>
+*Path by which a hacker can gain access to a host in order to deliver a payload or malicious outcome*
 
+- **APT - Advanced Persistent Threats**
+  - An advanced persistent threat is a stealthy threat actor, typically a nation state or state-sponsored group, which gains unauthorized access to a computer network and remains undetected for an extended period; Typically uses zero day attacks.
+- **Cloud computing / Cloud based technologies**
+  - Flaw in one client's application cloud allow attacker to access other client's data
+- **Viruses, worms, and malware**
+  - Viruses and worms are the most prevalent networking threat that are capable of infecting a network within seconds.
+- **Ransomware**
+  - Restricts access to the computer system's files and folders and demands an online ransom payment to the attacker in order to remove the restrictions.
+- **Mobile Device threats**
+- **Botnets**
+  - Huge network of compromised systems used by an intruder to perform various network attacks
+- **Insider attacks**
+    - Disgruntled employee can damage assets from inside.
+    - Huge network of compromised hosts. (used for DDoS).
+
+- **Phishing attacks**
+- **Web Application Threats**
+  - Attacks like SQL injection, XSS (Cross-site scripting)...
+- **IoT Threats**
+
+## <span style="color:#009fd4">Threat actor types and attributes.</span>
+
+1. Types of actors:
+    1. **Script kiddies**: A person who uses pre-existing code and scripts to hack into machines, because they lack the expertise to write their own.
+    2. **Hacktivist**: An individual who is someone who misuses computer systems for a socially or politically motivated agenda. They have roots in the hacker culture and ethics. Hacker on a mission.
+    3. **Organized crime**: These are professionals motivated ultimately by profit. They have enough money to buy the best gear and tech. Multiple people perform specific roles: gathering data, managing exploits, and one who actually writes the code.
+    4. **Nation states/APT**: An APT is an advanced persistent threat, these are massive security risks that can cost companies and countries millions of dollars. Nation states have very sophisticated hacking teams that target the security of other nations. They often attack military organizations or large security sites, they also frequently attack power plants.
+    5. **Insiders**: Someone who is inside the company who has intricate knowledge of the company and how its network works. They can pinpoint a specific vulnerability and may even have access to multiple parts of the network.
+    6. **Competitors**: Rival companies, can bring down your network or steal information through espionage.
+2. Attributes of actors:
+    1. **Internal/external**: Internal is inside the company, can be intentional, unintentional. External is someone outside the company trying to get in.
+    2. **Level of sophistication**: Is the skill of the hacker and the complexity of the attack.
+    3. **Resources/funding**: The amount of money and the value of the tech and gear being used.
+    4. **Intent/motivation**: The reason for the attack, can be for political, monetary, or social reasons.
+    5. **Use of Open-source intelligence (OSINT)**: Data that is collected through publicly available information. This can be used to help make decisions. Can be used by threat actors to help find their next target or how to best attack their target. OSINT is also incredibly helpful for mitigating risks and for identifying new threat actors.
+    
 ## <span style="color:#009fd4">Type of malware.</span>
 
 1. **Malware**: A malicious software that performs bad functions to our computer or other devices on the network.
@@ -113,20 +152,17 @@ There is an inter dependency between these three attributes. When **security goe
     9. **ARP poisoning**: The act of falsifying the IP-to-MAC address resolution system employed by TCP/IP.
     10. **Amplification**: The amount of traffic sent by the attacker is originally small but then is repeatability multiplied to place a massive strain on the victim’s resources, in an attempt to cause it to fail or malfunction.  
     11. **DNS poisoning**: Is a type of attack that exploits vulnerabilities in the domain name system (DNS) to divert Internet traffic away from legitimate servers and towards fake ones.
-    12. **Domain hijacking**: The act of changing the registration of a domain name without the permission of the victim.
-    13. **Man-in-the-browser**: A proxy Trojan horse that infects web browsers and capture browser session data.
-    14. **Zero day**: The aim is to exploit flaws or vulnerabilities in targeted systems that are unknown or undisclosed to the world in general. Meaning that there is no direct or specific defense to the attack; which puts most systems vulnerable assets at risk.
-    15. **Replay**: Is a network-based attack where a valid data transmission is rebroadcasted, repeated, or delayed.  
-    16. **Pass the hash**: An authentication attack that captures and uses the hash of a password. The attacker then attempts to log on as the user with the stolen hash. This type of attack is commonly associated with the Microsoft NTLM (New Technology LAN Manager) protocol.
-    17. Hijacking and related attacks:
+    12. **Man-in-the-browser**: A proxy Trojan horse that infects web browsers and capture browser session data.
+    13. **Zero day**: The aim is to exploit flaws or vulnerabilities in targeted systems that are unknown or undisclosed to the world in general. Meaning that there is no direct or specific defense to the attack; which puts most systems vulnerable assets at risk.
+    14. **Replay**: Is a network-based attack where a valid data transmission is rebroadcasted, repeated, or delayed.  
+    15. **Pass the hash**: An authentication attack that captures and uses the hash of a password. The attacker then attempts to log on as the user with the stolen hash. This type of attack is commonly associated with the Microsoft NTLM (New Technology LAN Manager) protocol.
+    16. Hijacking and related attacks:
         1. **Clickjacking**: Deceives the user into clicking on a malicious link by adding the link to a transparent layer over what appears to be a legitimate web page.
         2. **Session hijacking**: An attack in which an attacker attempts to impersonate the user by using their legitimate session token.  
-        1. **URL hijacking**: Redirects the user to a false website based on misspelling the URL, is also referred to **typosquatting**.
-    18. **Driver manipulation**:
-        1. **Shimming**: The process of injecting alternate or compensation code into a system in order to alter its operations without changing the original or existing code.
-        2. **Refactoring**: Rewrites the internal processing of code without changing its behavior.
-    19. **MAC spoofing**: The attacker falsifies the MAC address of a device.
-    20. **IP spoofing**: An intruder uses another site's IP address to masquerade as a legitimate site.  
+       	3. **URL hijacking**: Redirects the user to a false website based on misspelling the URL, is also referred to **typosquatting**.
+       	4. **Domain hijacking**: The act of changing the registration of a domain name without the permission of the victim.
+    17. **MAC spoofing**: The attacker falsifies the MAC address of a device.
+    18. **IP spoofing**: An intruder uses another site's IP address to masquerade as a legitimate site.  
 3. Wireless attacks:
     1. **Replay**: This is a passive attack where the attacker captures wireless data, records it, and then sends it on to the original recipient without them being aware of the attacker's presence.
     2. **IV (Initialization Vector)**: A random number used to increase security by reducing predictability and repeatability.
@@ -134,11 +170,7 @@ There is an inter dependency between these three attributes. When **security goe
     4. **Rogue AP (Access Point)**: An unauthorized WAP (Wireless Access Point) or Wireless Router that allows for attackers to bypass many of the network security configurations and opens the network and its users to attacks.
     5. **Jamming**: Disabling a wireless frequency with noise to block the wireless traffic.
     6. **WPS (WiFi Protected Setup)**: Allows users to easily configure a wireless network, sometimes by using only a PIN. The PIN can be found through a brute force attack.
-    7. **Bluejacking**: Sending unauthorized messages to a Bluetooth device.
-    8. **Bluesnarfing**: Gaining unauthorized access to, or stealing information from a Bluetooth device
-    9. **RFID** (Radio Frequency Identifier): Communicates with a tag placed in or attached to an object using radio signals. Can be jammed with noise interference, the blocking of radio signals, or removing/disabling the tags themselves.
-    10. **NFC (Near Field Communication)**: A wireless technology that allows for smartphones and other devices to establish communication over a short distance.
-    11. **Disassociation**: Removes clients from a wireless network.
+    7. **Disassociation**: Removes clients from a wireless network.
 4. Cryptographic attacks
    1. **Birthday**: Used to find collisions in hashes and allows the attacker to be able to create the same hash as the user. Exploits that if the same mathematical function is performed on two values and the result is the same, then the original values are the same.
    2. Known plain text/cipher text:
@@ -150,87 +182,7 @@ There is an inter dependency between these three attributes. When **security goe
        1. Online: Is against a live logon prompt.
        2. Offline: The attack is working on their own independent computers to compromise a password hash.
    6. **Collision**: When two different inputs produce the same hash value.
-   7. **Downgrade**: Forces a system to lessen its security, this allows for the attacker to exploit the lesser security control. It is most often associated with cryptographic attacks due to weak implementations of cipher suites. Example is TLS > SSL, a man-in-the-middle POODLE attack exploiting TLS v1.0 - CBC mode.
    8. **Replay**: The attacker captures network packets and then retransmits them back onto the network to gain unauthorized access.
-   9. **Weak implementations**: The main cause of failures in modern cryptography systems are because of poor or weak implementations instead of a failure caused by the algorithm itself.
-
-## <span style="color:#009fd4">Threat actor types and attributes.</span>
-
-1. Types of actors:
-    1. **Script kiddies**: A person who uses pre-existing code and scripts to hack into machines, because they lack the expertise to write their own.
-    2. **Hacktivist**: An individual who is someone who misuses computer systems for a socially or politically motivated agenda. They have roots in the hacker culture and ethics. Hacker on a mission.
-    3. **Organized crime**: These are professionals motivated ultimately by profit. They have enough money to buy the best gear and tech. Multiple people perform specific roles: gathering data, managing exploits, and one who actually writes the code.
-    4. **Nation states/APT**: An APT is an advanced persistent threat, these are massive security risks that can cost companies and countries millions of dollars. Nation states have very sophisticated hacking teams that target the security of other nations. They often attack military organizations or large security sites, they also frequently attack power plants.
-    5. **Insiders**: Someone who is inside the company who has intricate knowledge of the company and how its network works. They can pinpoint a specific vulnerability and may even have access to multiple parts of the network.
-    6. **Competitors**: Rival companies, can bring down your network or steal information through espionage.
-2. Attributes of actors:
-    1. **Internal/external**: Internal is inside the company, can be intentional, unintentional. External is someone outside the company trying to get in.
-    2. **Level of sophistication**: Is the skill of the hacker and the complexity of the attack.
-    3. **Resources/funding**: The amount of money and the value of the tech and gear being used.
-    4. **Intent/motivation**: The reason for the attack, can be for political, monetary, or social reasons.
-    5. **Use of Open-source intelligence (OSINT)**: Data that is collected through publicly available information. This can be used to help make decisions. Can be used by threat actors to help find their next target or how to best attack their target. OSINT is also incredibly helpful for mitigating risks and for identifying new threat actors.
-
-
-
-
-
-
-## <span style="color:#009fd4">Threat Categories</span>
-* **Network Threats**
-  - Information gathering
-  - Sniffing and eavesdropping
-  - DNS/ARP Poisoning
-  - MITM (Man-in-the-Middle Attack)
-  - DoS/DDoS
-  - Password-based attacks
-  - Firewall and IDS attack
-  - Session Hijacking
-
-* **Host Threats**
-  - Password cracking
-  - Malware attacks
-  - Footprinting
-  - Profiling
-  - Arbitrary code execution
-  - Backdoor access
-  - Privilege Escalation
-  - Code Execution
-
-* **Application Threats**
-  - Injection Attacks
-  - Improper data/input validation
-  - Improper error handling and exeception management
-  - Hidden-field manipulation
-  - Broken session management
-  - Cryptography issues
-  - SQL injection
-  - Phishing
-  - Buffer Overflow
-  - Information disclosure
-  - Security Misconfigurations
-
-## <span style="color:#009fd4">Attack Vectors</span>
-*Path by which a hacker can gain access to a host in order to deliver a payload or malicious outcome*
-
-- **APT - Advanced Persistent Threats**
-  - An advanced persistent threat is a stealthy threat actor, typically a nation state or state-sponsored group, which gains unauthorized access to a computer network and remains undetected for an extended period; Typically uses zero day attacks.
-- **Cloud computing / Cloud based technologies**
-  - Flaw in one client's application cloud allow attacker to access other client's data
-- **Viruses, worms, and malware**
-  - Viruses and worms are the most prevalent networking threat that are capable of infecting a network within seconds.
-- **Ransomware**
-  - Restricts access to the computer system's files and folders and demands an online ransom payment to the attacker in order to remove the restrictions.
-- **Mobile Device threats**
-- **Botnets**
-  - Huge network of compromised systems used by an intruder to perform various network attacks
-- **Insider attacks**
-    - Disgruntled employee can damage assets from inside.
-    - Huge network of compromised hosts. (used for DDoS).
-
-- **Phishing attacks**
-- **Web Application Threats**
-  - Attacks like SQL injection, XSS (Cross-site scripting)...
-- **IoT Threats**
 
 ## <span style="color:#009fd4">Vulnerabilities</span>
 
