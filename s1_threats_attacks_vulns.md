@@ -45,11 +45,11 @@ There is an inter dependency between these three attributes. When **security goe
 - **Black Hat** - Hackers that seek to perform malicious activities.
 - **Gray Hat** - Hackers that perform good or bad activities but do not have the permission of the organization they are hacking against.
 - **White Hat** - Ethical hackers; They use their skills to improve security by exposing vulnerabilities before malicious hackers.
--**Script Kiddie / Skiddies** - Unskilled individual who uses malicious scripts or programs, such as a web shell, developed by others to attack computer systems and networks and deface websites. 
--**State-Sponsored Hacker** - Hacker that is hired by a government or entity related.
--**Hacktivist** - Someone who hacks for a cause; political agenda.
--**Suicide Hackers** - Are hackers that are not afraid of going jail or facing any sort of punishment; hack to get the job done.
--**Cyberterrorist** - Motivated by religious or political beliefs to create fear or disruption.
+- **Script Kiddie / Skiddies** - Unskilled individual who uses malicious scripts or programs, such as a web shell, developed by others to attack computer systems and networks and deface websites. 
+- **State-Sponsored Hacker** - Hacker that is hired by a government or entity related.
+- **Hacktivist** - Someone who hacks for a cause; political agenda.
+- **Suicide Hackers** - Are hackers that are not afraid of going jail or facing any sort of punishment; hack to get the job done.
+- **Cyberterrorist** - Motivated by religious or political beliefs to create fear or disruption.
 
 ## <span style="color:#009fd4">Terminology</span>
 
