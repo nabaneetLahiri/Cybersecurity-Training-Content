@@ -1,13 +1,12 @@
 # **<span style="color:white;background-color:#009fd4">1.0 Threats, Attacks and Vulnerabilities</span>**
 
-## <span style="color:#009fd4">1.1 Given a scenario, analyze indicators of compromise and determine the type of malware.</span>
+## <span style="color:#009fd4">1.1 Type of malware.</span>
 
 1. **Malware**: A malicious software that performs bad functions to our computer or other devices on the network.
 2. **Viruses**: An unsolicited and unwanted malicious program that can reproduce itself.
 3. **Crypto-malware**: A malicious program that encrypts programs and files on the computer in order to extort money from the user.
 4. **Ransomware**: Denies access to a computer system or data until a ransom is paid. Can be spread through a phishing email or unknowingly infected website.
 5. **Worm**: A self-contained infection that can spread itself through networks, emails, and messages.  
-![image-20201102200215476](assets/image-20201102200215476.png)
 6. **Trojan**: A form of malware that pretends to be a harmless application.
 7. **Rootkit**: A backdoor program that allows full remote access to a system.
 8. **Keylogger**: A malicious program that saves all of the keystrokes of the infected machine.
@@ -18,7 +17,7 @@
 13. **Logic bomb**: A malicious program that lies dormant until a specific date or event occurs.
 14. **Backdoor**: Allows for full access to a system remotely.
 
-## <span style="color:#009fd4">1.2 Compare and contrast types of attacks.</span>
+## <span style="color:#009fd4">1.2 Types of attacks.</span>
 
 1. **Phishing**: Sending a false email pretending to be legitimate to steal valuable information from the user.
     1. **Spear phishing**: Attacks that target specific users with inside information.
@@ -44,32 +43,27 @@
     2. **DDoS (Distributed Denial of Service)**: DoS launched from multiple sources.
     3. **Man-in-the-middle**: The attacker alters the communication between two parties who believe they are directly communicating.
     4. **Buffer overflow**: A program attempts to write more data than can be held in a fixed block of memory.  
-        ![image-20201102201101310](assets/image-20201102201101310.png)
     5. **Injection**: Occurs from processing invalid data, inserts code into the vulnerable computer program and changes the course of execution.
     6. **Cross-site scripting (XXS)**: Found in web applications, allows for an attacker to inject client-side scripts in web pages.
     7. **Cross-site request forgery (XSRF)**: Unauthorized commands are sent from a user that is trusted by the website. Allows the attacker to steal cookies and harvest passwords.
     8. **Privilege escalation**: An attack that exploits a vulnerability that allows them to  gain access to resources that they normally would be restricted from accessing.
     9. **ARP poisoning**: The act of falsifying the IP-to-MAC address resolution system employed by TCP/IP.
     10. **Amplification**: The amount of traffic sent by the attacker is originally small but then is repeatability multiplied to place a massive strain on the victim’s resources, in an attempt to cause it to fail or malfunction.  
-        ![image-20201102200518403](assets/image-20201102200518403.png)
     11. **DNS poisoning**: Is a type of attack that exploits vulnerabilities in the domain name system (DNS) to divert Internet traffic away from legitimate servers and towards fake ones.
     12. **Domain hijacking**: The act of changing the registration of a domain name without the permission of the victim.
     13. **Man-in-the-browser**: A proxy Trojan horse that infects web browsers and capture browser session data.
     14. **Zero day**: The aim is to exploit flaws or vulnerabilities in targeted systems that are unknown or undisclosed to the world in general. Meaning that there is no direct or specific defense to the attack; which puts most systems vulnerable assets at risk.
     15. **Replay**: Is a network-based attack where a valid data transmission is rebroadcasted, repeated, or delayed.  
-        ![image-20201102220406772](assets/image-20201102220406772.png)
     16. **Pass the hash**: An authentication attack that captures and uses the hash of a password. The attacker then attempts to log on as the user with the stolen hash. This type of attack is commonly associated with the Microsoft NTLM (New Technology LAN Manager) protocol.
     17. Hijacking and related attacks:
         1. **Clickjacking**: Deceives the user into clicking on a malicious link by adding the link to a transparent layer over what appears to be a legitimate web page.
         2. **Session hijacking**: An attack in which an attacker attempts to impersonate the user by using their legitimate session token.  
-        ![image-20201102220929730](assets/image-20201102220929730.png)
         1. **URL hijacking**: Redirects the user to a false website based on misspelling the URL, is also referred to **typosquatting**.
     18. **Driver manipulation**:
         1. **Shimming**: The process of injecting alternate or compensation code into a system in order to alter its operations without changing the original or existing code.
         2. **Refactoring**: Rewrites the internal processing of code without changing its behavior.
     19. **MAC spoofing**: The attacker falsifies the MAC address of a device.
     20. **IP spoofing**: An intruder uses another site's IP address to masquerade as a legitimate site.  
-        ![image-20201102221145459](assets/image-20201102221145459.png)
 3. Wireless attacks:
     1. **Replay**: This is a passive attack where the attacker captures wireless data, records it, and then sends it on to the original recipient without them being aware of the attacker's presence.
     2. **IV (Initialization Vector)**: A random number used to increase security by reducing predictability and repeatability.
@@ -97,7 +91,7 @@
    8. **Replay**: The attacker captures network packets and then retransmits them back onto the network to gain unauthorized access.
    9. **Weak implementations**: The main cause of failures in modern cryptography systems are because of poor or weak implementations instead of a failure caused by the algorithm itself.
 
-## <span style="color:#009fd4">1.3 Explain threat actor types and attributes.</span>
+## <span style="color:#009fd4">1.3 Threat actor types and attributes.</span>
 
 1. Types of actors:
     1. **Script kiddies**: A person who uses pre-existing code and scripts to hack into machines, because they lack the expertise to write their own.
@@ -112,53 +106,3 @@
     3. **Resources/funding**: The amount of money and the value of the tech and gear being used.
     4. **Intent/motivation**: The reason for the attack, can be for political, monetary, or social reasons.
     5. **Use of Open-source intelligence (OSINT)**: Data that is collected through publicly available information. This can be used to help make decisions. Can be used by threat actors to help find their next target or how to best attack their target. OSINT is also incredibly helpful for mitigating risks and for identifying new threat actors.
-
-## <span style="color:#009fd4">1.4 Explain penetration testing concepts.</span>
-
-1. **Active reconnaissance**: Is the use of tools to send data to systems and then understanding their responses. Usually starts with various network and vulnerability scanners. Can be incredibly illegal and should not be engaged without being prepared and proper authorization.
-2. **Passive reconnaissance**: You are not touching any of the target’s equipment. Instead you are going through and gathering that is already available. Forums and social media are great sources for gathering information about the company and its employees.
-3. **Pivot**: In penetration testing it is using a compromised machine to attack other machines on the same network. Attacking and gaining access to an area of lower security in order to be more likely to have a successful attack on an area of greater security. Is also referred to as island hopping.
-4. **Initial exploitation**: Usually the hardest part. A vulnerability is taken advantage of to get into the network or system.
-5. **Persistence**: Installing backdoors or methods to keep access to the host or networks.
-6. **Privilege escalation**: Allows for a user to get a higher-level access than what authentication allows for. Can be resolved through patching and updating. Typically related to a bug or vulnerability.
-7. **Black box**: The pentester knows nothing about the network and  have no prior knowledge.
-8. **White box**: The pentester have full knowledge of the configurations allowing you to perform specific tests.
-9. **Gray box**: Some knowledge of the network; a mix of black and white.
-10. **Penetration testing vs. vulnerability scanning**: Penetration testing is an active attack on the network to exploit vulnerabilities, can assess potential damages and the potential of the exploits being found. Is done by a human. Vulnerability scans passively scans and identifies vulnerabilities. Is automated.
-
-## <span style="color:#009fd4">1.5 Explain vulnerability scanning concepts.</span>
-
-1. **Passively test security controls**: Uses an automated vulnerability scanner. Observes and reports findings. Does not take down systems, applications, or services, and doesn’t disrupt business.
-2. **Identify vulnerability**: Understanding common attacks and taking inventory of vulnerabilities. Scanners can report: missing updates, misconfigured security settings, and known exploits.
-3. **Identify lack of security controls**: Vulnerability scanners can identify missing patches or antivirus.
-4. **Identify common misconfigurations**: Weak passwords, default usernames and passwords, and open ports.
-5. **Intrusive vs. non-intrusive**: Intrusive testing can interrupt service, is much more detailed, and exploits vulnerabilities. Non-intrusive is more passive, does not exploit vulnerabilities, and does not disrupt service.
-6. **Credentialed vs. non-credentialed**: Credentialed are done as though it is inside the network, emulates an insider attack. Non-credentialed are done as though it is outside the network, emulates an outside attack. Shows what would be found if the network was scanned.
-7. **False positive**: A result which shows incorrectly that a condition or attribute is present. A false vulnerability.
-
-## <span style="color:#009fd4">1.6 Explain the impact associated with types of vulnerabilities</span>
-
-1. **Race conditions**: The behavior of a software, electronic, or another system’s output is dependent on the timing, sequence of events, or a factor out of the user’s control.  
-Vulnerabilities due to:
-    1. **End-of-life systems**: No longer receives updates, and at a high risk to compromise.
-    2. **Embedded systems**: Programs added for automation and/or monitoring. Can allow for malicious programs to gain access through the added programs.
-    3. **Lack of vendor support**: Vendor does not support the product: does not update, improve, or protect the product.
-2. **Improper input handling:** The system does not properly validate data, allows for an attacker to create an input that is not expected. Allows for parts of the system vulnerable to unintended data.
-3. **Improper error handling**: The error messages display sensitive or private information that give the user too much data.
-4. **Misconfiguration/weak configuration**: If there is a door left open, hackers will find it.
-5. **Default configuration**: Uses the unsecure out-of-box settings.
-6. **Resource exhaustion**: A denial of service occurs, the amount of resources to execute an action are expended, making it unable for the action to be performed.
-7. **Untrained users**: Users are not properly informed on how to use the systems. This means that mistakes will more likely occur and that the system’s resources may be abused.
-8. **Improperly configured accounts**: Users should only be allowed to access the parts that they need to complete their work.
-9. **Vulnerable business processes**: All tasks, procedures, and functions should be properly assessed and the most valuable and vulnerable should be heavily protected.
-10. **Weak cipher suites and implementations**: Use of older and less robust cryptographic algorithms. EX. DES, WEP.
-11. Memory/buffer vulnerability:
-    1. **Memory leak**: Unused memory is not properly released. Leaves the system unresponsive.
-    2. **Integer overflow**: Large integer exceeds data storage capacity.
-    3. **Buffer overflow**: Too much data for the computer’s memory to buffer.
-    4. **NULL Pointer dereference**: Failed deference can cause memory corruption and the application to crash.
-    5. **DLL injection**: The attacker injects a DLL into a system's memory allowing for executing code.
-12. **System sprawl/undocumented assets**: Lack of internal inventory and allowing unsecure devices and systems to connect to the network.
-13. **Architecture/design weaknesses**: An insecure and poorly designed network. Ex. Not segmenting the systems or internal network.
-14. **New threats/zero day**: A zero-day threat, is a flaw that is unknown to the teams patching and fixing flaws.
-15. **Improper certificate and key management**: Allowing for unauthorized access to certificates and keys, which allows for sensitive data to be decrypted. And allowing for certificates to expire.
